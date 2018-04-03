@@ -23,7 +23,7 @@ public class SpringConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/demo?useSSL=false");
         dataSource.setUsername("root");
-        dataSource.setPassword("[htycjcfnmythjpsy.[fnm231481");
+        dataSource.setPassword("");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         return dataSource;
     }
